@@ -7,7 +7,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-import com.relay.TempRead;
+
+import com.relay.TempReadTemp1;
 
 import au.com.bytecode.opencsv.CSVWriter;
 
@@ -23,7 +24,7 @@ public class MonitorUsingDummyData {
 		DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm'Z'");
 		
 		
-		double temp = TempRead.temp();
+		double temp = TempReadTemp1.temp();
 		String tempexport = Double.toString(temp);
 		
 		

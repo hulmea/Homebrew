@@ -54,20 +54,20 @@ public static long TimeRelayon(double tdiff) {
 	//Set the time for the heater to be on per cycle depending on the temp difference
 	
 	if (tdiffint > 50){
-		return 100;}
+		return 200;}
 	else if (tdiffint > 40){
-		return 90;	}
+		return 60;	}
 	else if (tdiffint > 30 ){ 
-		return 85;	}
+		return 45;	}
 	else if (tdiffint > 20 ) {
-		return 60;}
-	else if (tdiffint > 10 ){
 		return 40;}
-	else if (tdiffint > 5 ){
+	else if (tdiffint > 10 ){
 		return 30;}
+	else if (tdiffint > 5 ){
+		return 20;}
 	else if (tdiffint > 2 ){
-		return 10;}
-	return 30;
+		return 5;}
+	return 4;
 	
 
 }

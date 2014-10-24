@@ -23,7 +23,7 @@ public class MonitorTempData {
 		DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		
 		
-		double temp = TempRead.temp();
+		double temp = TempReadTemp2.temp();
 		String tempexport = Double.toString(temp);
 		
 		System.out.println(temp + "C "+df.format(date));

@@ -50,7 +50,7 @@ public class TurnOn {
 					
 					
 					double maxtemp = tempset;
-					double  livetemp = TempRead.temp();
+					double  livetemp = TempReadTemp1.temp();
 					System.out.println("Water temp is "+livetemp);
 					
 					
@@ -62,7 +62,11 @@ public class TurnOn {
 							
 							
 							//Turn Relay On
-							RelayOnOffRaspberryPI.turnon30();
+							//RelayOnOffRaspberryPI.turnon30();
+							DynamicRelayContolRaspberryPI.turnonforXtime(livetemp,maxtemp);
+							livetemp = TempReadTemp1.temp();
+							
+							
 							
 							}
 							else {
