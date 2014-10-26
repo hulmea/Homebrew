@@ -1,6 +1,5 @@
 package testing;
 
-import com.relay.RelayOnOffRaspberryPI;
 
 public class TurnOffGPIO2 {
 

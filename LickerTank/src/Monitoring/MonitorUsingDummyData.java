@@ -8,7 +8,6 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 
-import com.relay.TempReadTemp1;
 
 import au.com.bytecode.opencsv.CSVWriter;
 

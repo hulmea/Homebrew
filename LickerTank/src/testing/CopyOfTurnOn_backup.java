@@ -4,8 +4,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import com.relay.RelayOnOffRaspberryPI;
-import com.relay.TempRead;
+import Monitoring.TempReadTemp1;
 
 public class CopyOfTurnOn_backup {
 
@@ -46,7 +45,7 @@ public class CopyOfTurnOn_backup {
 					
 					
 					double maxtemp = 70;
-					double  livetemp = TempRead.temp();
+					double  livetemp = TempReadTemp1.temp();
 					
 						if  (livetemp < maxtemp)
 						

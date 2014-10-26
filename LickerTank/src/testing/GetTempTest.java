@@ -2,7 +2,7 @@ package testing;
 
 import java.io.IOException;
 
-import com.relay.TempReadTemp1;;
+import Monitoring.TempReadTemp1;
 
 public class GetTempTest {
 
